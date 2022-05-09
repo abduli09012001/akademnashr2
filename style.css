@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1900px;
+    height: 100px;
+    border-top: 5px solid #FF7500;
+}
+
+
+.header{
+    height: 91px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+}
+.left1{
+    display: flex;
+    align-items: center;
+}
+.left1 div{
+    font-family: "Roboto Condensed", serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #252420;
+}
+.left1 .txt__orange{
+    color: #FF7500;
+}
+
+
+
+.menu1{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+
+}
+.menu1{
+    list-style: none;
+
+}
+.menu1 li{
+    align-items: center;
+    margin-left: 32px;
+    align-content: space-around;
+}
+.menu1 li a{
+    color: black;
+    text-decoration-line: none;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+.menu1 .line__bottom{
+    border-bottom: #FF7500 3px solid;
+}
+.menu1 .block__orange{
+    line-height: 35px;
+    text-align: center;
+    height: 39px;
+    width: 155px;
+    border-radius: 4px;
+    background-color: #FF7500;
+    color: white;
+}
+
+/*header tugadi bomasam*/
+
+
+.contend1{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    height: 600px;
+    background-color: #252420;
+}
+.contend1 .left2 .line__hr{
+    background-color: #FF7500;
+    width: 80px;
+    height: 3px;
+    color: #FF7500;
+    border-radius: 4px;
+    border: 1px solid #FF7500;
+    margin-left: 130px;
+
+}
+.contend1 .left2{
+    margin-top: 80px;
+}
+.contend1 .right2{
+    width: 720px;
+    margin-top: 80px;
+    align-items: flex-end;
+}
+.left2 .txt__con{
+    font-family: "Roboto Condensed", serif;
+    color: white;
+    font-size: 25px ;
+    font-style: normal;
+    margin-left: 130px;
+    margin-top: 25px;
+
+}
+.left2 span{
+    width: 390px;
+    height: 96px;
+    font-family: Roboto, serif;
+    font-size: 16px;
+
+}
+.block__orange2{
+    font-family: "Roboto Condensed", serif;
+    color: white;
+    background-color: #FF7500;
+    border-radius: 4px;
+    width: 152px;
+    height: 39px;
+    margin-left: 130px;
+    margin-top: 100px;
+    text-align: center;
+    line-height: 42px;
+}
+
+
+.right2{
+    position: relative;
+}
+.right2 img{
+    position: absolute;
+    top: 70px;
+}
+
+/*contend1 tugadi bomasam*/
+
+.contend2{
+    height: 936px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+
+
+.line__hr{
+    background-color: #FF7500;
+    width: 80px;
+    height: 3px;
+    color: #FF7500;
+    border-radius: 4px;
+    border: 1px solid #FF7500;
+    margin-left: 130px;
+}
+.con2__top{
+    width: 1100px;
+    margin-left: 130px;
+    margin-top: 210px;
+
+}
+.txt__con2{
+    font-family: "Roboto Condensed", serif;
+    color: black;
+    font-size: 72px ;
+    font-style: normal;
+    margin-left: 130px;
+    /*margin-top: 25px;*/
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+
+.con2__bottom{
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-around;
+    height: 250px;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+ .center3, .right3{
+    margin-left: 100px;
+}
+
+/*left*/
+.left3 .top{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #FF7500;
+    opacity: 0.2;
+    text-align: center;
+}
+
+.left3 .pas h1{
+    margin-top: 50px;
+}
+.pas span{
+    line-height: 24px;
+    width: 300px;
+    height: 72px;
+    font-family: Roboto, serif;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+/*center*/
+.center3 .top{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #FF7500;
+    opacity: 0.2;
+    text-align: center;
+}
+
+.center3 .pas h1{
+    margin-top: 50px;
+}
+.pas span{
+    line-height: 24px;
+    width: 300px;
+    height: 72px;
+    font-family: Roboto, serif;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+/*right*/
+.right3 .top{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #FF7500;
+    opacity: 0.2;
+    text-align: center;
+}
+
+.right3 .pas h1{
+    margin-top: 50px;
+}
+.pas span{
+    line-height: 24px;
+    width: 300px;
+    height: 72px;
+    font-family: Roboto, serif;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 200px;
+
+}
+
+
+/*contend3*/
+
+.contend3{
+    margin-left: 230px;
+    margin-top: 200px;
+    width: 1400px;
+    height: 500px;
+    background-color: #252420;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    letter-spacing: 0.5px;
+
+
+}
+.con3__left{
+    width: 900px;
+    font-family: Roboto Condensed, serif;
+    font-size: 28px;
+    color: white;
+    margin: 64px;
+    height: 290px;
+    margin-top: -50px;
+
+}
+.con3__left span{
+    font-size: 16px;
+    height: 48px;
+    font-family: Roboto, serif;
+    font-weight: bold;
+
+}
+
+.orange{
+    color: #FF7500;
+}
+
+
+
+
+
+
+.knock{
+    margin-top: 45px;
+    font-family: "Roboto Condensed", serif;
+    color: white;
+    background-color: #FF7500;
+    border-radius: 4px;
+    width: 152px;
+    height: 39px;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+
+.con3__right{
+    position: relative;
+    width: 720px;
+}
+.con3__right img{
+    position: absolute;
+    top: -300px;
+}
+
+
+/*contend3 tugadi bomasam*/
+
+
+.footer{
+    margin-top: 160px;
+    margin-left: 100px;
+    height: 210px;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-around;
+}
+.fot__top{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    width: 1385px;
+    margin-right: 110px;
+    border-bottom: 2px solid #8F8E8C;
+    padding-bottom: 60px;
+}
+.top__left .left__fot{
+    font-family: Roboto Condensed, serif;
+    font-weight: bold;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.txt__orange{
+    color: #FF7500;
+}
+
+.top__right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+.top__right .icon{
+    margin-right: 20px;
+}
+.top__right .icon__mr{
+    margin-right: 0px !important;
+}
+
+
+/*bottom*/
+.fot__bottom{
+    display: flex;
+    width: 1500px;
+    margin-left: 250px;
+}
+
+.fot__bottom .footerlar{
+    font-family: Roboto, serif;
+    font-size: 16px;
+    font-weight: bold;
+    width: 250px;
+    line-height: 40px;
+    margin-left: 60px;
+}
+.fot__bottom .footerlar ul{
+    list-style: none;
+
+}
+.fot__bottom .footerlar ul li a{
+    color: #212121;
+    text-decoration-line: none;
+}
+.fot1{
+    margin-left: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

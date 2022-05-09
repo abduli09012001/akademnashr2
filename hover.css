@@ -1,0 +1,56 @@
+.right1 .menu1 li a:hover{
+    color: #FF7500;
+}
+.block__orange:hover, .block__orange2:hover, .knock:hover{
+    color: white;
+    opacity: 70%;
+}
+.block__orange:hover .white{
+    color: white;
+}
+
+
+
+
+
+.top__left:hover .left__fot{
+    opacity: 60%;
+}
+
+
+.top__right .icon:hover{
+    color: #FF7500;
+    background-color: #FF7500;
+
+}
+
+.footerlar a:hover{
+    color: #FF7500 !important;
+}
+
+
+
+
+/*active*/
+
+
+.right1 .menu1 li a:active{
+    opacity: 60%;
+}
+
+
+.block__orange:active, .block__orange2:active, .knock:active{
+    opacity: 50%;
+}
+
+.footerlar a:active{
+    opacity: 50%;
+}
+
+.top__left:active .left__fot{
+    opacity: 50%;
+}
+
+.left1:active{
+    opacity: 70%;
+}
